@@ -7,7 +7,7 @@ terraform {
     encrypt = true
     bucket = "shiv-g-terraform-remote-state-storage-s3"
     dynamodb_table = "shiv-g-terraform-state-lock-dynamodb"
-    key    = "global/s3/terraform.tfstate"
+    key    = "global/new/terraform.tfstate"
     region = "us-east-2"
   }
 }
