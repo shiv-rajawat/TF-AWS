@@ -5,6 +5,14 @@ variable "cidr_block"{
   description = "The CIDR block for the VPC."
 }
 
+variable "access_key" {
+  type = "string"
+  }
+
+variable "secret_key" {
+  type = "string"
+  }
+
 variable "instance_tenancy"{
   type = "string"
   description = "The instance tenacy of resources within the VPC."
