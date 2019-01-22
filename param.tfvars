@@ -1,0 +1,15 @@
+##This file supplies values to the parameters used in dev's main file. Their declaration and descriptions are given in dev's variables.tf file. Refer it for more info.
+
+cidr_block = "10.0.0.0/16"
+instance_tenancy = "dedicated"
+vpc_name = "shiv-g-vpc"
+subnet_1_cidr_block = "10.0.1.0/24"
+subnet_2_cidr_block = "10.0.2.0/24"
+subnet_3_cidr_block = "10.0.3.0/24"
+subnet_1_name = "shiv-g-sub1"
+subnet_2_name = "shiv-g-sub2"
+subnet_3_name = "shiv-g-sub3"
+subnet_1_availability_zone = "us-east-2a"
+subnet_2_availability_zone = "us-east-2b"
+subnet_3_availability_zone = "us-east-2c"
+ec2-1-name = "shiv-g-ec2-1"
